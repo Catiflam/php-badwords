@@ -1,5 +1,5 @@
 <?php
-	echo $_GET('')
+	echo $_GET["insert"];
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,10 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+    <p>
+        Scopri
+  <?php echo $insert ?>     
+</p>
     
 </body>
 </html>
