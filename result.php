@@ -1,5 +1,8 @@
 <?php
-	echo $_GET["insert"];
+	 
+    $my_var = "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+
+     $result = str_replace('ipsum','***', $my_var);
 ?>
 
 <!DOCTYPE html>
@@ -11,9 +14,11 @@
 </head>
 <body>
     <p>
-        Scopri
-  <?php echo $insert ?>     
-</p>
+          <?php echo($my_var);?>
+          
+        </p>
+        
+        <?php echo($result); ?> 
     
 </body>
 </html>
